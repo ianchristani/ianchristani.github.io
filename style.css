@@ -178,13 +178,14 @@
 #skills-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin: 25px;
 }
 
-.skills-box {
+#skills-box {
     flex: 1 1 1 33%;
     max-width: 33%;
-    margin: 50px;
+    margin: 10px;
+    font-size: 30px;
 }
 
 .skills-title {
@@ -196,9 +197,8 @@
     border-left: 5px solid var(--main-color);
 }
 
-.skills-box i {
-    font-size: 50px;
-    margin-right: 10px;
+#django {
+    font-size:50px;
 }
 
 /* responsive */
